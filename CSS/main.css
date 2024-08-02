@@ -1,0 +1,150 @@
+#separador{
+    background-color: #dfd4cd;
+    
+}
+
+#separador::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+
+
+}
+
+#identificacion{
+    background-color: #D7DDD5;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+#btninicio{
+    background-color: #cbbcb8;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+#btninicio:hover{
+    background-color: #f7eae1;
+}
+
+#identificacion img{
+    position: relative;
+    margin: -30px;
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+
+#separador2{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador2 .content{
+    background-color: #858988;
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#nuestrosplatos{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, white 20%, #f7c391 80%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px
+}
+
+#footer{
+    background:url(img.css/separador32.png);
+    background-color: transparent;
+    background-size:auto;
+    opacity: 70%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    
+}
+
+#footerdai{
+    background-color: rgb(212, 189, 189);
+    background-size: auto;
+
+}
+
+#historia{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+#historia .content{
+    background-image: url(img.css/acercadenosotros.png);
+    width: 100%;
+    height: 600px ;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#historia .content:before{
+content: "";
+ width: 100% ;
+ height: 100% ;
+ background-color: black;
+ position: absolute;
+ opacity: 0.6;
+
+}
+
+#historia .content h1{
+    position: relative;
+    font-size:60px;
+    
+}
+
+#nuestrahistoria{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, white 20%, #f7c391 80%);
+
+}
+
+#separador3{
+    background-color: #dfd4cd;
+    height: 100px;
+    
+
+}
+
+#video{
+   margin-top: -20px;
+   background: linear-gradient(0deg, white 20%, #b9a99a 57%);
+}
